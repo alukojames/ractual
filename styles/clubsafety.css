@@ -1,0 +1,99 @@
+
+
+        .rules-section {
+            background: #f8faff;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 1s ease-out forwards;
+        }
+
+        .rules-section h1 {
+            font-size: clamp(1.5rem, 4vw, 2rem);
+            font-weight: 700;
+            color: #1a1a1a;
+            border-bottom: 3px solid #0055a4;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        .rules-section p {
+            font-size: clamp(1rem, 2.5vw, 1.1rem);
+            line-height: 1.8;
+            color: #333333;
+            margin-bottom: 1rem;
+        }
+
+        .rules-section h2 {
+            font-size: clamp(1.3rem, 3.5vw, 1.8rem);
+            font-weight: 700;
+            color: #1a1a1a;
+            border-bottom: 2px solid #0055a4;
+            padding-bottom: 0.5rem;
+            margin: 1.5rem 0 1rem;
+            text-transform: uppercase;
+        }
+
+        .rules-section ol,
+        .rules-section ul {
+            padding-left: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .rules-section ol li,
+        .rules-section ul li {
+            font-size: clamp(1rem, 2.5vw, 1.1rem);
+            line-height: 1.8;
+            color: #333333;
+            margin-bottom: 0.5rem;
+            position: relative;
+        }
+
+        .standard-title {
+            color: red;
+            font-weight: bold;
+            font-size: clamp(1rem, 2.5vw, 1.2rem);
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .page-wrapper {
+                padding: 1.5rem;
+            }
+
+            .rules-section {
+                padding: 1.5rem;
+            }
+
+            .rules-section h1 {
+                font-size: clamp(1.3rem, 3.5vw, 1.8rem);
+            }
+
+            .rules-section h2 {
+                font-size: clamp(1.2rem, 3vw, 1.6rem);
+            }
+
+            .rules-section ol li,
+            .rules-section ul li,
+            .rules-section p {
+                font-size: clamp(0.9rem, 2vw, 1rem);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .page-wrapper {
+                padding: 1rem;
+            }
+
+            .rules-section {
+                padding: 1rem;
+            }
+        }
+
+       
